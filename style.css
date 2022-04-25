@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-style: "Courier New", Courier, monospace;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+button {
+  padding: 0.5em;
+  font-family: var(--font-style);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.5em;
+  font-family: var(--font-style);
+  font-size: 2rem;
+}
